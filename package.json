@@ -20,12 +20,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"npm run backend\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://13.114.147.23:7000",
+  "proxy": "http://54.235.56.150:7000",
   "eslintConfig": {
     "extends": [
       "react-app",
